@@ -1,2 +1,4 @@
-# python_api_challenge
-Karl Schultz's submission for Week 6 Challenge assignment for University of Oregon Data Analytics Bootcamp. To run this project, simply load KSchultz_WeatherPy.ipnyb as well as KSchultz_VacationPy.ipnyb and api_keys.py files into Jupyter Notebook. Then run each .ipnyb file cell by cell to process analysis results.
+# Python-Weather-API
+This repository contains two projects using API requests and using the .JSON data format:
+  The first project, called WeatherPy, uses API requests from OpenWeatherMapAPI to visualize the weather of over 500 cities of varying distances from the equator. It creates multiple plots showing the relationship between Latitude with Temperature, Humidity, Cloudiness and Wind Speed by city. It calculates linear regressions for all these relationships.
+  The second project, called VacationPy, uses the data from the first project to find best vacation locations by weather conditions. The idea weather conditions are these: First, a max temperature between 21 C and 27 C. Second, a wind speed less than 4.5 m/s. Third, zero cloudiness. It then uses GeoApify API to find hotels within 10,000 meters of the ideal coordinates. Finally it visualizes all of the ideal hotel locations on an attractive global map projection. 
